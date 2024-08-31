@@ -1,13 +1,9 @@
 {
-    "version":2,
-    "builds":{
-        "src":"app.js",
-        "use":"@vercel/node"
-    },
-    "routers":[
+    "version": 2,
+    "builds": [
         {
-            "src":"/(.*)",
-            "dest":"app.js"
+            "src": "./app.js",
+            "use": "@vercel/node"
         }
     ]
-}
+  }
